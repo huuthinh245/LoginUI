@@ -12,6 +12,7 @@ export default styles = StyleSheet.create({
     },
     logo: {
         //height: _dims.height/2,
+        marginTop: 10,
         resizeMode: 'contain',
         alignSelf: 'center',
     },
@@ -64,10 +65,10 @@ export default styles = StyleSheet.create({
         flex: 1
     },
     socialText: {
-        margin: 20
+        margin: 30
     },
 
 
 })
-export const IMAGE_HEIGHT = 300
+export const IMAGE_HEIGHT = 200
 export const IMAGE_HEIGHT_SMALL = 100
